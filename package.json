@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sixtus32/my-vr-cube/issues"
   },
-  "homepage": "https://github.com/Sixtus32/my-vr-cube#readme"
+  "homepage": "https://github.com/Sixtus32/my-vr-cube#readme",
+  "dependencies": {
+    "remixicon": "^3.5.0"
+  }
 }
