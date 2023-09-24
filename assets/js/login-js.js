@@ -1,2 +1,2 @@
-import { lock2fill } from 'remixicon/icons';
-import { maillfill } from 'remixicon/icons';
+// import { lock2fill } from 'remixicon/icons';
+// import { maillfill } from 'remixicon/icons';
