@@ -1,0 +1,43 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@500;600&family=Nova+Oval&family=Poppins:wght@600&display=swap');
+
+/* VARIABLES CSS */
+:root{
+    /* ============ Colors ======== */
+    --while-color: hsl(0, 0%, 100%);
+    --black-color: hsl(0, 0%, 0%);
+    /* ================== Font and typography =============== */
+    --body-font: "Poppins", sans-serif;
+    --h1-font-size: 2rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .813rem; 
+}
+
+/* ==================== BASE ================= */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+input,
+button {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+
+/* ============= LOGIN =========== */
+
+
+/* ================= BREAKPOINT ================= */
