@@ -1,0 +1,20 @@
+{
+  "name": "my-vr-cube",
+  "version": "1.0.0",
+  "description": "**my-vr-cube** is just a test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sixtus32/my-vr-cube.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sixtus32/my-vr-cube/issues"
+  },
+  "homepage": "https://github.com/Sixtus32/my-vr-cube#readme"
+}
