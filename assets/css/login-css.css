@@ -168,6 +168,51 @@ img{
 .login__register a:hover{
     text-decoration: underline;
 }
+
+.service__container{
+    text-align: center;
+    margin: 2px;
+}
+
+.login__separator{
+    margin-bottom: 10px;
+}
+
+span{
+    color: var(--while-color);
+    font-weight: 600;
+}
+
+.btn__text{
+    margin-left: 8px;
+}
+.login__service-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 23, 23);
+    margin-bottom: 6px;
+    padding: 8px;
+    border: .2px solid var(--while-color);
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    color: var(--while-color);
+}
+
+.tpc{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: .70rem;
+    color: var(--while-color);
+}
+
+.tpc a{
+    color: var(--while-color);
+    text-decoration: underline;
+}
 /* ================= BREAKPOINT ================= */
 /* For medium devices */
 @media screen and (min-width: 576px){
@@ -181,5 +226,9 @@ img{
     
     .login__title{
         margin-bottom: 2rem;
+    }
+
+    .login__bg{
+        image-rendering: optimizeQuality;
     }
 }
