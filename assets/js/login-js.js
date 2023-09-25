@@ -16,10 +16,19 @@ loginBtn.addEventListener("click",() => {
         setTimeout(() => {
             emailInput.classList.remove("shake");
         }, 1000);
+        console.log("Invalid email")
+    }else{
+        console.log("Valid email")
     }
 })
 
 const isValidEmail= (email) => {
     return email.length > 0 && email.includes("@") && email.includes(".");
 }
+
+function onSignIn(googleUser) {
+  var id_token = googleUser.getAuthResponse().id_token;
+  console.log("token ID : " + String(id_token))
+}
 });
+// Script Google Sign In 
